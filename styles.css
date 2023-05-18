@@ -1,0 +1,106 @@
+* {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+    margin: 0;
+}
+
+/*
+    SHAKY LETTERS
+*/
+
+#shaky-letters {
+    /* border: 3px black solid; */
+    padding: 10px;
+}
+
+#razzle {
+    width: 100px;
+}
+
+#razzle:hover{
+    animation: horShake .1s;
+    animation-iteration-count: infinite;
+}
+
+.horShake {
+    animation: horShake .1s;
+    animation-iteration-count: infinite;
+}
+
+.revHorShake {
+    animation: revHorShake .1s;
+    animation-iteration-count: infinite;
+}
+
+.vertShake {
+    animation: vertShake .1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+@keyframes horShake {
+    50% { transform: translate(-1px, 0); }
+    100% { transform: translate(1px, 0); }
+}
+
+@keyframes revHorShake {
+    50% { transform: translate(1px, 0); }
+    100% { transform: translate(-1px, 0); }
+}
+
+@keyframes vertShake {
+    50% { transform: translate(0,-1px); }
+    100% { transform: translate(0,1px); }
+}
+
+/*
+    VIBE BORDERS
+*/
+
+#boxes-and-borders {
+    padding: 10px;
+    /* border: 3px solid black; */
+}
+
+.vibe-border:hover {
+    box-shadow: 0 0 10px 10px #ff8787;
+}
+
+.vib-boder-2:hover {
+    box-shadow: 0 0 10px 10px #ff8787 inset;
+}
+
+#box-1 {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#box-2 {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+
