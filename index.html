@@ -7,46 +7,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Project #2</title>
 
-    <link rel="icon" href="img/">
+    <link rel="icon" href="imgs/0_normal.png">
 
     <!-- Link to My CSS Sheet-->
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="sil.css">
+
+    <!-- Open Sans -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap" rel="stylesheet">
     
 
 </head>
 
 <body>
-    <div id="shaky-letters">
-        <p id="razzle">Hello World</p>
 
-        <p class="inline-block revHorShake">H</p>
+    <!-- TITLE -->
+    <div id="title-card">
+        <div id="title">
+                <p class="inline-block revHorShake title">b</p>
+                <p class="inline-block horShake title">a</p>
+                <p class="inline-block vertShake title">d</p>
+                <p class="inline-block horShake title">	&nbsp;</p>
+                <p class="inline-block vertShake title">v</p>
+                <p class="inline-block revHorShake title">i</p>
+                <p class="inline-block horShake title">b</p>
+                <p class="inline-block vertShake title">e</p>
+                <p class="inline-block horShake title">s</p>
+    </div>
+
+
+        <p class="inline-block revHorShake">b</p>
+        <p class="inline-block horShake">y</p>
+        <p class="inline-block horShake"></p>
+        <p class="inline-block vertShake">k</p>
         <p class="inline-block horShake">e</p>
-        <p class="inline-block vertShake">l</p>
-        <p class="inline-block horShake">l</p>
-        <p class="inline-block vertShake">o</p>
-        <p class="inline-block revHorShake">W</p>
+        <p class="inline-block vertShake">n</p>
+        <p class="inline-block revHorShake">a</p>
+        <p class="inline-block horShake">n</p>
+        <p class="inline-block vertShake">p</p>
         <p class="inline-block horShake">o</p>
-        <p class="inline-block vertShake">r</p>
+        <p class="inline-block vertShake">o</p>
         <p class="inline-block horShake">l</p>
-        <p class="inline-block vertShake">d</p>
-        
-
-        <!-- <p> 
-            <span>H</span>
-            <span class="horShake">e</span>
-            <span>l</span>
-            <span>l</span>
-            <span>o</span>
-        </p> -->
+        <p class="inline-block revHorShake">e</p>
     </div>
 
-    <div id="boxes-and-borders">
-        <div class="vibe-border" id="box-1"></div>
-        <div class="vib-boder-2" id="box-2"></div>
+
+
+    <!-- ENVIRONMENT -->
+    <div id="street-corner-cont">
+        <img id="street-corner" class="img-bound" src="imgs/street_corner.png">
     </div>
 
-    <a href="sil.html">TO SIL</a>
+    <div id="street-corner-cont">
+        <img id="left-street-corner" class="img-bound" src="imgs/street_corner.png">
+    </div>
+
+    <div id="crosswalk-cont">
+        <img class="crosswalk" id="crosswalk-1" src="imgs/crosswalk_2.png">
+        <img class="crosswalk" id="crosswalk-2" src="imgs/crosswalk_2.png">
+        <img class="crosswalk" id="crosswalk-3" src="imgs/crosswalk_2.png">
+        <img class="crosswalk" id="crosswalk-4" src="imgs/crosswalk_2.png">
+        <img class="crosswalk" id="crosswalk-5" src="imgs/crosswalk_2.png">
+        <img class="crosswalk" id="crosswalk-6" src="imgs/crosswalk_2.png">
+        <img class="crosswalk" id="crosswalk-7" src="imgs/crosswalk_2.png">
+        <img class="crosswalk" id="crosswalk-8" src="imgs/crosswalk_2.png">
+        <img class="crosswalk" id="crosswalk-9" src="imgs/crosswalk_2.png">
+    </div>
+
+    <div id="street-sign-cont" class="">
+        <img id="street-sign" class="img-bound" src="imgs/street_sign_cropped.png">
+    </div>
+
+    <!-- SILHOUETTES -->    
+
+    <div id="sil-0-cont" class="">
+        <img id="sil-0" class="img-bound " src="imgs/0_normal.png" onclick="vibeCheck(true,0);">        
+    </div>
+
 
 </body>
 
+<script src="script.js"></script>
+
 </html>
+
